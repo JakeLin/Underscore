@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE78AAC81CD0E764002D7ADD /* Underscore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78AABE1CD0E763002D7ADD /* Underscore.framework */; };
+		AE78AAE41CD0EA25002D7ADD /* Underscore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78AADA1CD0EA24002D7ADD /* Underscore.framework */; };
+		AE78AAFE1CD0ECA8002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; };
+		AE78AAFF1CD0ECA9002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; };
+		AE78AB001CD0ECAA002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; };
+		AE78AB011CD0ECAE002D7ADD /* UnderscoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8079011CC8BF77009FF058 /* UnderscoreTests.swift */; };
+		AE78AB021CD0ECAE002D7ADD /* UnderscoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8079011CC8BF77009FF058 /* UnderscoreTests.swift */; };
 		AE8078F61CC8BF77009FF058 /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE8078FD1CC8BF77009FF058 /* Underscore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8078F21CC8BF77009FF058 /* Underscore.framework */; };
 		AE8079021CC8BF77009FF058 /* UnderscoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8079011CC8BF77009FF058 /* UnderscoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AE78AAC91CD0E764002D7ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8078E91CC8BF77009FF058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE78AABD1CD0E763002D7ADD;
+			remoteInfo = Underscore;
+		};
+		AE78AAE51CD0EA25002D7ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8078E91CC8BF77009FF058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE78AAD91CD0EA24002D7ADD;
+			remoteInfo = Underscore;
+		};
 		AE8078FE1CC8BF77009FF058 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AE8078E91CC8BF77009FF058 /* Project object */;
@@ -23,15 +44,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE78AABE1CD0E763002D7ADD /* Underscore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Underscore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78AAC71CD0E764002D7ADD /* Underscore OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Underscore OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78AADA1CD0EA24002D7ADD /* Underscore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Underscore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78AAE31CD0EA25002D7ADD /* Underscore tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Underscore tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78AAF61CD0EA64002D7ADD /* Underscore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Underscore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8078F21CC8BF77009FF058 /* Underscore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Underscore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8078F51CC8BF77009FF058 /* Underscore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Underscore.h; sourceTree = "<group>"; };
 		AE8078F71CC8BF77009FF058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE8078FC1CC8BF77009FF058 /* UnderscoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnderscoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8078FC1CC8BF77009FF058 /* Underscore iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Underscore iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8079011CC8BF77009FF058 /* UnderscoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderscoreTests.swift; sourceTree = "<group>"; };
 		AE8079031CC8BF77009FF058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE78AABA1CD0E763002D7ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAC41CD0E764002D7ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AAC81CD0E764002D7ADD /* Underscore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAD61CD0EA24002D7ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAE01CD0EA25002D7ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AAE41CD0EA25002D7ADD /* Underscore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAF21CD0EA64002D7ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE8078EE1CC8BF77009FF058 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,7 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				AE8078F21CC8BF77009FF058 /* Underscore.framework */,
-				AE8078FC1CC8BF77009FF058 /* UnderscoreTests.xctest */,
+				AE8078FC1CC8BF77009FF058 /* Underscore iOS Tests.xctest */,
+				AE78AABE1CD0E763002D7ADD /* Underscore.framework */,
+				AE78AAC71CD0E764002D7ADD /* Underscore OSX Tests.xctest */,
+				AE78AADA1CD0EA24002D7ADD /* Underscore.framework */,
+				AE78AAE31CD0EA25002D7ADD /* Underscore tvOS Tests.xctest */,
+				AE78AAF61CD0EA64002D7ADD /* Underscore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +165,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		AE78AABB1CD0E763002D7ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AAFE1CD0ECA8002D7ADD /* Underscore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAD71CD0EA24002D7ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AAFF1CD0ECA9002D7ADD /* Underscore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAF31CD0EA64002D7ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AB001CD0ECAA002D7ADD /* Underscore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE8078EF1CC8BF77009FF058 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,9 +200,99 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AE8078F11CC8BF77009FF058 /* Underscore */ = {
+		AE78AABD1CD0E763002D7ADD /* Underscore OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE8079061CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "Underscore" */;
+			buildConfigurationList = AE78AACF1CD0E764002D7ADD /* Build configuration list for PBXNativeTarget "Underscore OSX" */;
+			buildPhases = (
+				AE78AAB91CD0E763002D7ADD /* Sources */,
+				AE78AABA1CD0E763002D7ADD /* Frameworks */,
+				AE78AABB1CD0E763002D7ADD /* Headers */,
+				AE78AABC1CD0E763002D7ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Underscore OSX";
+			productName = Underscore;
+			productReference = AE78AABE1CD0E763002D7ADD /* Underscore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE78AAC61CD0E764002D7ADD /* Underscore OSX Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE78AAD21CD0E764002D7ADD /* Build configuration list for PBXNativeTarget "Underscore OSX Tests" */;
+			buildPhases = (
+				AE78AAC31CD0E764002D7ADD /* Sources */,
+				AE78AAC41CD0E764002D7ADD /* Frameworks */,
+				AE78AAC51CD0E764002D7ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE78AACA1CD0E764002D7ADD /* PBXTargetDependency */,
+			);
+			name = "Underscore OSX Tests";
+			productName = UnderscoreTests;
+			productReference = AE78AAC71CD0E764002D7ADD /* Underscore OSX Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE78AAD91CD0EA24002D7ADD /* Underscore tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE78AAEB1CD0EA25002D7ADD /* Build configuration list for PBXNativeTarget "Underscore tvOS" */;
+			buildPhases = (
+				AE78AAD51CD0EA24002D7ADD /* Sources */,
+				AE78AAD61CD0EA24002D7ADD /* Frameworks */,
+				AE78AAD71CD0EA24002D7ADD /* Headers */,
+				AE78AAD81CD0EA24002D7ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Underscore tvOS";
+			productName = Underscore;
+			productReference = AE78AADA1CD0EA24002D7ADD /* Underscore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE78AAE21CD0EA25002D7ADD /* Underscore tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE78AAEE1CD0EA25002D7ADD /* Build configuration list for PBXNativeTarget "Underscore tvOS Tests" */;
+			buildPhases = (
+				AE78AADF1CD0EA25002D7ADD /* Sources */,
+				AE78AAE01CD0EA25002D7ADD /* Frameworks */,
+				AE78AAE11CD0EA25002D7ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE78AAE61CD0EA25002D7ADD /* PBXTargetDependency */,
+			);
+			name = "Underscore tvOS Tests";
+			productName = UnderscoreTests;
+			productReference = AE78AAE31CD0EA25002D7ADD /* Underscore tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE78AAF51CD0EA64002D7ADD /* Underscore watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE78AAFB1CD0EA64002D7ADD /* Build configuration list for PBXNativeTarget "Underscore watchOS" */;
+			buildPhases = (
+				AE78AAF11CD0EA64002D7ADD /* Sources */,
+				AE78AAF21CD0EA64002D7ADD /* Frameworks */,
+				AE78AAF31CD0EA64002D7ADD /* Headers */,
+				AE78AAF41CD0EA64002D7ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Underscore watchOS";
+			productName = Underscore;
+			productReference = AE78AAF61CD0EA64002D7ADD /* Underscore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE8078F11CC8BF77009FF058 /* Underscore iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8079061CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "Underscore iOS" */;
 			buildPhases = (
 				AE8078ED1CC8BF77009FF058 /* Sources */,
 				AE8078EE1CC8BF77009FF058 /* Frameworks */,
@@ -121,14 +303,14 @@
 			);
 			dependencies = (
 			);
-			name = Underscore;
+			name = "Underscore iOS";
 			productName = Underscore;
 			productReference = AE8078F21CC8BF77009FF058 /* Underscore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AE8078FB1CC8BF77009FF058 /* UnderscoreTests */ = {
+		AE8078FB1CC8BF77009FF058 /* Underscore iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE8079091CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "UnderscoreTests" */;
+			buildConfigurationList = AE8079091CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "Underscore iOS Tests" */;
 			buildPhases = (
 				AE8078F81CC8BF77009FF058 /* Sources */,
 				AE8078F91CC8BF77009FF058 /* Frameworks */,
@@ -139,9 +321,9 @@
 			dependencies = (
 				AE8078FF1CC8BF77009FF058 /* PBXTargetDependency */,
 			);
-			name = UnderscoreTests;
+			name = "Underscore iOS Tests";
 			productName = UnderscoreTests;
-			productReference = AE8078FC1CC8BF77009FF058 /* UnderscoreTests.xctest */;
+			productReference = AE8078FC1CC8BF77009FF058 /* Underscore iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,6 +336,21 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Jake Lin";
 				TargetAttributes = {
+					AE78AABD1CD0E763002D7ADD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AE78AAC61CD0E764002D7ADD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AE78AAD91CD0EA24002D7ADD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AE78AAE21CD0EA25002D7ADD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AE78AAF51CD0EA64002D7ADD = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					AE8078F11CC8BF77009FF058 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -174,13 +371,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE8078F11CC8BF77009FF058 /* Underscore */,
-				AE8078FB1CC8BF77009FF058 /* UnderscoreTests */,
+				AE8078F11CC8BF77009FF058 /* Underscore iOS */,
+				AE8078FB1CC8BF77009FF058 /* Underscore iOS Tests */,
+				AE78AABD1CD0E763002D7ADD /* Underscore OSX */,
+				AE78AAC61CD0E764002D7ADD /* Underscore OSX Tests */,
+				AE78AAD91CD0EA24002D7ADD /* Underscore tvOS */,
+				AE78AAE21CD0EA25002D7ADD /* Underscore tvOS Tests */,
+				AE78AAF51CD0EA64002D7ADD /* Underscore watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE78AABC1CD0E763002D7ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAC51CD0E764002D7ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAD81CD0EA24002D7ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAE11CD0EA25002D7ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAF41CD0EA64002D7ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE8078F01CC8BF77009FF058 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +435,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AE78AAB91CD0E763002D7ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAC31CD0E764002D7ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AB011CD0ECAE002D7ADD /* UnderscoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAD51CD0EA24002D7ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AADF1CD0EA25002D7ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78AB021CD0ECAE002D7ADD /* UnderscoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78AAF11CD0EA64002D7ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE8078ED1CC8BF77009FF058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,14 +490,196 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AE78AACA1CD0E764002D7ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE78AABD1CD0E763002D7ADD /* Underscore OSX */;
+			targetProxy = AE78AAC91CD0E764002D7ADD /* PBXContainerItemProxy */;
+		};
+		AE78AAE61CD0EA25002D7ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE78AAD91CD0EA24002D7ADD /* Underscore tvOS */;
+			targetProxy = AE78AAE51CD0EA25002D7ADD /* PBXContainerItemProxy */;
+		};
 		AE8078FF1CC8BF77009FF058 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE8078F11CC8BF77009FF058 /* Underscore */;
+			target = AE8078F11CC8BF77009FF058 /* Underscore iOS */;
 			targetProxy = AE8078FE1CC8BF77009FF058 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AE78AAD01CD0E764002D7ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Underscore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE78AAD11CD0E764002D7ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Underscore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AE78AAD31CD0E764002D7ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnderscoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.UnderscoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE78AAD41CD0E764002D7ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnderscoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.UnderscoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE78AAEC1CD0EA25002D7ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Underscore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		AE78AAED1CD0EA25002D7ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Underscore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		AE78AAEF1CD0EA25002D7ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnderscoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.UnderscoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		AE78AAF01CD0EA25002D7ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnderscoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.UnderscoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		AE78AAFC1CD0EA64002D7ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Underscore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		AE78AAFD1CD0EA64002D7ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Underscore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		AE8079041CC8BF77009FF058 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,7 +718,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -305,7 +760,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,8 +779,8 @@
 				INFOPLIST_FILE = Underscore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.Underscore";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -341,8 +795,8 @@
 				INFOPLIST_FILE = Underscore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.Underscore";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeLin.Underscore;
+				PRODUCT_NAME = Underscore;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -370,6 +824,46 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE78AACF1CD0E764002D7ADD /* Build configuration list for PBXNativeTarget "Underscore OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78AAD01CD0E764002D7ADD /* Debug */,
+				AE78AAD11CD0E764002D7ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE78AAD21CD0E764002D7ADD /* Build configuration list for PBXNativeTarget "Underscore OSX Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78AAD31CD0E764002D7ADD /* Debug */,
+				AE78AAD41CD0E764002D7ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE78AAEB1CD0EA25002D7ADD /* Build configuration list for PBXNativeTarget "Underscore tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78AAEC1CD0EA25002D7ADD /* Debug */,
+				AE78AAED1CD0EA25002D7ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE78AAEE1CD0EA25002D7ADD /* Build configuration list for PBXNativeTarget "Underscore tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78AAEF1CD0EA25002D7ADD /* Debug */,
+				AE78AAF01CD0EA25002D7ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE78AAFB1CD0EA64002D7ADD /* Build configuration list for PBXNativeTarget "Underscore watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78AAFC1CD0EA64002D7ADD /* Debug */,
+				AE78AAFD1CD0EA64002D7ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AE8078EC1CC8BF77009FF058 /* Build configuration list for PBXProject "Underscore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -379,7 +873,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE8079061CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "Underscore" */ = {
+		AE8079061CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "Underscore iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE8079071CC8BF77009FF058 /* Debug */,
@@ -388,7 +882,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE8079091CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "UnderscoreTests" */ = {
+		AE8079091CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "Underscore iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE80790A1CC8BF77009FF058 /* Debug */,

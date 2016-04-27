@@ -6,7 +6,7 @@
 //  Copyright © 2016 Jake Lin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for Underscore.
 FOUNDATION_EXPORT double UnderscoreVersionNumber;

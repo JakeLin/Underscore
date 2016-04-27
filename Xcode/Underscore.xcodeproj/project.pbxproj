@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		AE78AAC81CD0E764002D7ADD /* Underscore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78AABE1CD0E763002D7ADD /* Underscore.framework */; };
 		AE78AAE41CD0EA25002D7ADD /* Underscore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78AADA1CD0EA24002D7ADD /* Underscore.framework */; };
-		AE78AAFE1CD0ECA8002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; };
-		AE78AAFF1CD0ECA9002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; };
-		AE78AB001CD0ECAA002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; };
+		AE78AAFE1CD0ECA8002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE78AAFF1CD0ECA9002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE78AB001CD0ECAA002D7ADD /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE78AB011CD0ECAE002D7ADD /* UnderscoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8079011CC8BF77009FF058 /* UnderscoreTests.swift */; };
 		AE78AB021CD0ECAE002D7ADD /* UnderscoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8079011CC8BF77009FF058 /* UnderscoreTests.swift */; };
 		AE8078F61CC8BF77009FF058 /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8078F51CC8BF77009FF058 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };

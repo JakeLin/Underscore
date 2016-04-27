@@ -50,11 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE8078E81CC8BF77009FF058 = {
+		AE78AA991CD0E079002D7ADD /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
 				AE8078F41CC8BF77009FF058 /* Underscore */,
 				AE8079001CC8BF77009FF058 /* UnderscoreTests */,
+			);
+			name = Xcode;
+			sourceTree = "<group>";
+		};
+		AE8078E81CC8BF77009FF058 = {
+			isa = PBXGroup;
+			children = (
+				AE78AA991CD0E079002D7ADD /* Xcode */,
 				AE8078F31CC8BF77009FF058 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -378,6 +386,7 @@
 				AE8079081CC8BF77009FF058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE8079091CC8BF77009FF058 /* Build configuration list for PBXNativeTarget "UnderscoreTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +395,7 @@
 				AE80790B1CC8BF77009FF058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,7 +5,7 @@ os:
 install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then SWIFT_DIR=tests ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get update ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install clang uuid-dev libjson-c-dev ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install clang ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then mkdir $SWIFT_DIR ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then curl https://swift.org/builds/development/ubuntu1404/$SWIFT_VERSION/$SWIFT_VERSION-ubuntu14.04.tar.gz -s | tar xz -C $SWIFT_DIR &> /dev/null ; fi
 env:
@@ -15,7 +15,7 @@ script:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then xcodebuild test -project Xcode/Underscore.xcodeproj -scheme "Underscore OSX" ONLY_ACTIVE_ARCH=NO ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then xcodebuild test -project Xcode/Underscore.xcodeproj -scheme "Underscore iOS" -destination "platform=iOS Simulator,name=iPhone 6" ONLY_ACTIVE_ARCH=NO ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then xcodebuild test -project Xcode/Underscore.xcodeproj -scheme "Underscore tvOS" -destination "platform=tvOS Simulator,name=Apple TV 1080p" ONLY_ACTIVE_ARCH=NO ; fi
-  
+
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export PATH=$(pwd)/tests/$SWIFT_VERSION-ubuntu14.04/usr/bin:"${PATH}" ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then swift build ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then .build/debug/Tests ; fi

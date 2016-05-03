@@ -2,7 +2,7 @@
 
 PKG_DIR=..
 TESTS_DIR="${PKG_DIR}/Tests"
-OUTPUT_FILE=${TESTS_DIR}/main.swift
+OUTPUT_FILE=${TESTS_DIR}/LinuxMain.swift
 
 if ! [ -d "${TESTS_DIR}" ]; then
     echo "The directory containing the tests must be named Tests"

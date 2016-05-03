@@ -10,15 +10,15 @@ import XCTest
 
 import Underscore
 
-class EachTest: XCTestCase {
+class EachTests: XCTestCase {
 
-  static var allTests : [(String, EachTest -> () throws -> Void)] {
-      return [
-          ("testEachForArray", testEachForArray),
-          ("testEachForDictionary", testEachForDictionary),
-          ("testEachForEmptyArray", testEachForEmptyArray),
-          ("testEachForEmptyDictionary", testEachForEmptyDictionary),
-      ]
+  static var allTests : [(String, EachTests -> () throws -> Void)] {
+    return [
+      ("testEachForArray", testEachForArray),
+      ("testEachForDictionary", testEachForDictionary),
+      ("testEachForEmptyArray", testEachForEmptyArray),
+      ("testEachForEmptyDictionary", testEachForEmptyDictionary),
+    ]
   }
 
   func testEachForArray() {

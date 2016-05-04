@@ -1,0 +1,10 @@
+codecov:
+  branch: master
+comment:
+  layout: header, changes, diff
+coverage:
+  ignore:
+  - .*Tests.swift
+  - .LinuxMain.swift
+  status:
+    patch: false

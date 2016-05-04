@@ -4,6 +4,7 @@ matrix:
     - os: linux
       services: docker
       sudo: required
+      dist: trusty
     - os: osx
       osx_image: xcode7.3
       sudo: required
